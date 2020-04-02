@@ -40,7 +40,7 @@ PassEntry.place(x=135, y=150)
 
 # ======================= Botões =======================
 
-LoginButton = ttk.Button(RightFrame, text="login", width=30)
+LoginButton = ttk.Button(RightFrame, text="login", width=20)
 LoginButton.place(x=135, y=200)
 
 
@@ -62,7 +62,7 @@ def Register():
     EmailEntry = Entry(RightFrame, width=37)
     EmailEntry.place(x=87, y=38)
     
-    Register = ttk.Button(RightFrame, text="Register", width=30)
+    Register = ttk.Button(RightFrame, text="Register", width=20)
     Register.place(x=100, y=225)
     
     
@@ -80,7 +80,7 @@ def Register():
         
         
     Back = ttk.Button(RightFrame, text="Back", width=20, command=BackToLogin)
-    Back.place(x=125, y=260)
+    Back.place(x=100, y=260)
     
     
 RegistreButton = ttk.Button(RightFrame, text="Registre", width=20, command=Register)
