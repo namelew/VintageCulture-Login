@@ -1,6 +1,6 @@
 # System-Login
 
-Sistema de Login Integrado ao Banco de Dados com Python, usando a biblioteca tkinter com sqlLITE.
+Login system integrated to the database with Python, using tkinter with sqlite.
 
 
 Installing Python 3 on Linux
