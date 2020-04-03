@@ -23,3 +23,6 @@ For python 3.X
         import tkinter as tk
         tk._test()
 
+Now let's install sqlite now, using this command via terminal:
+
+        pip install pysqlite3 
