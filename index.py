@@ -13,7 +13,7 @@ jan.title("System Login - Rafis")
 jan.geometry("600x300")
 jan.configure(background="BLACK")
 jan.resizable(width=False , height=False)
-jan.attributes("-alpha",0.9)
+jan.attributes("-alpha",0.9) # transparência
 
 #=======================Acrescentando Imagem =============
 
@@ -38,7 +38,7 @@ UserEntry.place(x=135, y=125)
 PassLabel = Label(RightFrame,text="PASSWORD:", font=("Central Gothic",15),bg="WHITE", fg='black')
 PassLabel.place(x=8, y=150)
 
-PassEntry = ttk.Entry(RightFrame,width=30, show="*")
+PassEntry = ttk.Entry(RightFrame,width=30, show="*" )
 PassEntry.place(x=135, y=150)
 
 #======================= Botões =======================
